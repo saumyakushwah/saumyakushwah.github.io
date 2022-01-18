@@ -105,9 +105,10 @@
   padding: 0px 30px;
 }
 
-/* .ant-layout-content{
-  margin: 0 !important;
-} */
+.ant-layout-content{
+  background-color: rgb(44, 31, 83);
+  /* margin: 0 !important; */
+}
 
 /* maingrid css start */
 .maingrid-button {

@@ -52,13 +52,13 @@ export default function MainFooter() {
               <Title level={5}>Meribachat for...</Title>
 
               <li>
-                <a>Enterprise</a>
+                <a href="/#enterprise">Enterprise</a>
               </li>
               <li>
-                <a>Marketers</a>
+                <a href="/#marketers">Marketers</a>
               </li>
               <li>
-                <a>Product managers</a>
+                <a href="/#productmanagers">Product managers</a>
               </li>
               <li>
                 <a>Developers</a>
@@ -70,7 +70,7 @@ export default function MainFooter() {
               <Title level={5}>For Marketers</Title>
 
               <li>
-                <a>Integrations</a>
+                <a href="/#integrations">Integrations</a>
               </li>
               <li>
                 <a>Success portal</a>
