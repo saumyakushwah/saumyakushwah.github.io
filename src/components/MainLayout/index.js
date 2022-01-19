@@ -68,8 +68,11 @@ export default function MainLayout() {
           </div>
         </Content>
         <CheckList />
-        <div style={{backgroundColor: '#2C1F53'}}>
-          <Title className="algorithm-heading">Save your time & make your sales promotions successful with <span style={{color: '#F9A802'}}>MeriBachat</span></Title>
+        <div style={{ backgroundColor: "#2C1F53" }}>
+          <Title className="algorithm-heading">
+            Save your time & make your sales promotions successful with{" "}
+            <span style={{ color: "#F9A802" }}>MeriBachat</span>
+          </Title>
         </div>
         <Algorithm />
         {/* <Carousel /> */}

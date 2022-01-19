@@ -123,7 +123,8 @@ export default function LoyaltyLayout() {
                 them to access rewards anywhere in the journey. Using our
                 loyalty software gamify the reward mechanics with tier-based
                 rewards with different point multipliers.
-                <br /><br/>
+                <br />
+                <br />
                 Let customers redeem points for awesome rewards
               </>
             }
@@ -133,7 +134,14 @@ export default function LoyaltyLayout() {
       </div>
       <div style={{ backgroundColor: "#2C1F53" }}>
         <QuesComp
-          ques={<>Want to build a <span style={{ color: "#F9A802" }}>data based loyality program</span></>}
+          ques={
+            <>
+              Want to build a{" "}
+              <span style={{ color: "#F9A802" }}>
+                data based loyality program
+              </span>
+            </>
+          }
           quesPara="We are here"
           quesBtn="Get Started"
         />

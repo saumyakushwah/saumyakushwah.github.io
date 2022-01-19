@@ -8,9 +8,7 @@ export default function Home() {
     <>
       <Banner />
       <FloatingButton />
-      <div
-        className="home-class"
-      >
+      <div className="home-class">
         <MainLayout />
       </div>
       <MainFooter />

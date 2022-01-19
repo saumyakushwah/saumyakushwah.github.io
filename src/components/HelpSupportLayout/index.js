@@ -3,7 +3,7 @@ import { Input } from "antd";
 
 const { Search } = Input;
 const { Title } = Typography;
-const {Meta} = Card;
+const { Meta } = Card;
 
 export default function HelpSupportLayout() {
   const onSearch = (value) => console.log(value);
@@ -27,238 +27,287 @@ export default function HelpSupportLayout() {
         <Title className="support-heading" style={{ color: "#fff !important" }}>
           How can we help you??
         </Title>
-        <div style={{textAlign: 'center', paddingBottom: '100px'}}>
-        <Search
-          placeholder="Search any keywords"
-          allowClear
-          onSearch={onSearch}
-          style={{ width: 750}}
-        /></div>
+        <div style={{ textAlign: "center", paddingBottom: "100px" }}>
+          <Search
+            placeholder="Search any keywords"
+            allowClear
+            onSearch={onSearch}
+            style={{ width: 750 }}
+          />
+        </div>
       </div>
       <div style={{ padding: "80px 200px" }}>
-        <Title style={{ color: "#fff", fontSize: "48px", textAlign: 'center' }}>
+        <Title style={{ color: "#fff", fontSize: "48px", textAlign: "center" }}>
           Getting started
         </Title>
         <Row>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
+            </Card>
+          </Col>
         </Row>
         <Row>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          
+            </Card>
+          </Col>
         </Row>
-        <Title style={{ color: "#fff", fontSize: "48px", textAlign: 'center', padding: "80px 0 0 0" }}>
+        <Title
+          style={{
+            color: "#fff",
+            fontSize: "48px",
+            textAlign: "center",
+            padding: "80px 0 0 0",
+          }}
+        >
           Campaigns
         </Title>
         <Row>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
+            </Card>
+          </Col>
         </Row>
         <Row>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          
-        </Row><Title style={{ color: "#fff", fontSize: "48px", textAlign: 'center', padding: "80px 0 0 0"  }}>
+            </Card>
+          </Col>
+        </Row>
+        <Title
+          style={{
+            color: "#fff",
+            fontSize: "48px",
+            textAlign: "center",
+            padding: "80px 0 0 0",
+          }}
+        >
           Integrations
         </Title>
         <Row>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          
+            </Card>
+          </Col>
         </Row>
-        <Title style={{ color: "#fff", fontSize: "48px", textAlign: 'center', padding: "80px 0 0 0"  }}>
+        <Title
+          style={{
+            color: "#fff",
+            fontSize: "48px",
+            textAlign: "center",
+            padding: "80px 0 0 0",
+          }}
+        >
           Use cases
         </Title>
         <Row>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+            </Card>
+          </Col>
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
+            </Card>
+          </Col>
         </Row>
         <Row>
-          <Col xs={2} sm={4} md={6} lg={14} xl={8}><Card
+          <Col xs={2} sm={4} md={6} lg={14} xl={8}>
+            <Card
               hoverable
               style={{
                 width: 240,
                 padding: "150px 140px",
                 borderRadius: "11px",
-                margin: '10px 40px 20px 0'
+                margin: "10px 40px 20px 0",
               }}
             >
               {/* <Title level={5}>Name</Title> */}
               <Meta title="Name" style={{ textAlign: "center" }} />
-            </Card></Col>
-         
-          
+            </Card>
+          </Col>
         </Row>
-        
       </div>
     </div>
   );
